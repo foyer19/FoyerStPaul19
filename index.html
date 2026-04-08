@@ -150,6 +150,16 @@
     </div>
 
     <!-- Le script vient TOUJOURS après le HTML pour pouvoir le modifier -->
+   <script>
+    // Cette ligne est magique : elle attend que TOUT soit prêt
+    window.addEventListener('DOMContentLoaded', (event) => {
+        const elementAnnee = document.getElementById('annee');
+        if (elementAnnee) {
+            elementAnnee.textContent = new Date().getFullYear();
+        }
+    });
+</script>
+    
     <script>
         // Ton code pour l'année et les activités
     </script>
