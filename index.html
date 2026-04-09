@@ -43,20 +43,41 @@
     <div class="container">
         <h1>Foyer St Paul Corrèze</h1>
         
+        <!-- SOMMAIRE DES DATES -->
         <div id="sommaireDates">
             <h2>📅 Calendrier 2026</h2>
             <ul id="listeDates"></ul>
         </div>
 
-        <!-- BLOC DE CONTACT -->
-        <div style="background: #f1f3f5; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
-            <p style="margin-top:0; font-weight:bold;">📝 Réservations & Infos :</p>
-            <div class="btn-group">
-                <a href="https://www.facebook.com/TON_LIEN_FACEBOOK" target="_blank" class="btn btn-fb">Facebook du Foyer</a>
-                <a href="tel:06XXXXXXXX" class="btn btn-tel">📞 Appeler pour réserver</a>
+        <!-- BLOC DE CONTACT BIEN CADRÉ -->
+        <div style="background-color: #f8f9fa; border: 2px solid #e9ecef; border-radius: 12px; padding: 20px; margin: 25px 0; box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);">
+            <p style="margin-top: 0; margin-bottom: 15px; font-weight: bold; color: #495057; font-size: 1.1em;">
+                📝 Réservations & Infos
+            </p>
+            
+            <div style="display: flex; flex-direction: column; gap: 12px; align-items: center;">
+                
+                <!-- BOUTON FACEBOOK -->
+                <a href="https://www.facebook.com/share/1HM1gQCDfu/" target="_blank" 
+                   style="display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; max-width: 300px; background-color: #1877F2; color: white; text-decoration: none; padding: 12px; border-radius: 8px; font-weight: bold; box-shadow: 0 4px 6px rgba(24, 119, 242, 0.2);">
+                   <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" width="20" height="20" alt="FB">
+                   Notre Page Facebook
+                </a>
+
+                <!-- BOUTON TÉLÉPHONE -->
+                <a href="tel:0683219538" 
+                   style="display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; max-width: 300px; background-color: #28a745; color: white; text-decoration: none; padding: 12px; border-radius: 8px; font-weight: bold; box-shadow: 0 4px 6px rgba(40, 167, 69, 0.2);">
+                   <span>📞</span> Appeler pour réserver
+                </a>
+
             </div>
+            <p style="margin-top: 15px; margin-bottom: 0; font-size: 0.85em; color: #6c757d; font-style: italic;">
+                (Les réservations se font uniquement par téléphone)
+            </p>
         </div>
 
+        <div id="listeActivites"></div>
+    </div>
         <div id="listeActivites"></div>
     </div>
 
